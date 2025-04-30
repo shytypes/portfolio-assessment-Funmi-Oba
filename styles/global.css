@@ -9,9 +9,10 @@
  * and is available for your use
  * */
 @media (max-width: 768px) {
-  .about-me {
+  *{
     flex-direction: column;
     height: auto;
+    width: auto;
   }
 }
 .top {

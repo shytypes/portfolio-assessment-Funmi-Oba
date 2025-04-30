@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+    *{
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+    .extra-nav{
+        flex-direction: column-reverse;
+      height: auto;
+      width: auto;
+    }
+  }
 .extra-nav {
   display: flex;
   flex-direction: row-reverse;

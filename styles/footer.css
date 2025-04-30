@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+    *{
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  }
 .footer {
   background-color: #f1f1f1;
 }
@@ -23,8 +30,8 @@
   padding-left: 30px;
 }
 #my-footer-logo {
-  width: 100px;
-  height: 100px;
+  width: 20vh;
+  height: 20vh;
   margin-left: 30px;
   margin-bottom: -40px;
   margin-top: -20px;
